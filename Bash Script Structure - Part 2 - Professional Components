@@ -7,4 +7,23 @@
 4. Thed script description
 5. The script usage
 
+# After adding 'the five':
+
+#!/bin/bash
+
+# Author: Brandon Aranda
+# Date Created: 2025/02/17
+# Last Modified: 2025/02/17
+
+# Description
+# Prints "This is my first script" to the terminal
+
+# Usage
+# our_first_script
+
+echo "This is my first script"
+
+exit 0
+
+
 
