@@ -1,0 +1,18 @@
+# Bash Shell Configuration
+# Bash: stands for Bourne-again shell
+
+# Check your current shell, output the path to the current shell:
+
+echo $SHELL
+
+# Bash shell = /bin/bash
+# 💡 Note the shell for future reference.
+# You can change your shell by running:
+
+chsh -s /bin/bash
+
+
+
+
+
+
