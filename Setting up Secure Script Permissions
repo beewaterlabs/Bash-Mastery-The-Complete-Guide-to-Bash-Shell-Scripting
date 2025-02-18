@@ -1,0 +1,10 @@
+# Setting up Secure Script Permissions
+
+# To view current directory permissions:
+
+ls -lh
+
+total 4.0K
+-rwxrwxr-x 1 tron tron 227 Feb 18 07:32 our_first_script.sh
+
+resume @ 1:38 mark
