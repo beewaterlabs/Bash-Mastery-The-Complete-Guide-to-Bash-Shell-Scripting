@@ -1,0 +1,50 @@
+# Bash Script Structure - Part 1 - Core Components
+
+# The scripts we write in Bash have three core parts a beginning, a middle and an end.
+# Always begins with a #!/bin/bash
+
+#!/bin/bash
+
+# If you run the file command, you can see the type of file as seen below:
+
+file our_first_script
+our_first_script: Bourne-Again shell script, ASCII text executable
+
+# If it were a python file, the script would start with the following ---> #!/usr/bin/python3
+
+file our_first_script
+our_first_script: Python script, ASCII text executable
+
+# The final core component of a bash script is the exit statement.
+# By entering different exit codes, the exit statement also tells the Shell whether the script
+# has completed successfully or unsuccessfully.
+# Exit statuses can have any value from 0 to 255.
+# 0 = pass | 1 = fail
+
+# However, some exit codes have special meanings, and knowing these can help your scripts to play nice with other programs.
+# Checkout the ssite below for all you need to know about exit codes.
+# Advanced Bash-Scripting Guide:  🥟 ---> Go to https://tldp.org/LDP/abs/html/exitcodes.html
+# Appendix E. Exit Codes With Special Meanings
+# Table E-1. Reserved Exit Codes
+
+# To give 'our_script.sh' execute permissions:
+
+chmod +x <script>
+
+# When running a script from the current directory, use ./<sript> to execute:
+
+./our_first_script.sh 
+This is my first script
+
+
+
+
+
+
+
+
+
+
+
+
+
