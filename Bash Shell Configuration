@@ -6,10 +6,14 @@
 echo $SHELL
 
 # Bash shell = /bin/bash
-# 💡 Note the shell for future reference.
+# 💡 Note the original shell for future reference.
 # You can change your shell by running:
 
 chsh -s /bin/bash
+
+# Restart the terminal, this will set your default shell to bash.
+
+
 
 
 
