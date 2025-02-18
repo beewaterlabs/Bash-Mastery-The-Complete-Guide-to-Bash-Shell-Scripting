@@ -1,0 +1,10 @@
+# Bash Script Structure - Part 2 - Professional Components
+
+# To make your script more professional, you can include five pieces of information:
+1. The author
+2. The Date of Creation
+3. The date the script was last modified
+4. Thed script description
+5. The script usage
+
+
