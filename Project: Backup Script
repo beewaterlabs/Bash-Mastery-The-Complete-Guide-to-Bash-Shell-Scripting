@@ -16,4 +16,5 @@
 
 tar -cvf ~/bash_course/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
 
-
+# To view all the .tar data:
+tar -tvf my_backup_25-09-2026_01-26-25.tar
