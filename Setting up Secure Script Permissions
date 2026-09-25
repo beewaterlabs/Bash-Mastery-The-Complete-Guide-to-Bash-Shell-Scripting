@@ -7,4 +7,6 @@ ls -lh
 total 4.0K
 -rwxrwxr-x 1 tron tron 227 Feb 18 07:32 our_first_script.sh
 
-resume @ 1:38 mark
+# Give file owner all permissions, while others have read-only.
+chmod 744 our_first_script.sh
+
