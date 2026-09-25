@@ -10,3 +10,8 @@ total 4.0K
 # Give file owner all permissions, while others have read-only.
 chmod 744 our_first_script.sh
 
+# Output:
+-rwxr--r--. 1 tron tron 230 Sep 24 21:42 our_first_script.sh
+
+# Give file owner all permissions, while others have read & run permissions but can't edit.
+chmod 755 our_first_script.sh
