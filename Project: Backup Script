@@ -10,7 +10,7 @@
 # Backup script for your woeking directory of scripts.
 
 # Usage
-# Run to backup all files in your directory.
+# Run to backup all the contents of your home directory
 # This command takes the contents of your home directory, compresses it into a .tar archive, and saves that archive into the ~/bash_course directory.
 # The command also names the backup according to the current date and time.
 
