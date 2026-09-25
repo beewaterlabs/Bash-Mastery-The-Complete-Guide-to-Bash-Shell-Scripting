@@ -1,0 +1,19 @@
+# Project: Backup Script
+
+#!/bin/bash
+
+# Author: Brandon Aranda
+# Date Created: 2026/09/25
+# Last Modified: 2026/09/25
+
+# Description
+# Backup script for your woeking directory of scripts.
+
+# Usage
+# Run to backup all files in your directory.
+# This command takes the contents of your home directory, compresses it into a .tar archive, and saves that archive into the ~/bash_course directory.
+# The command also names the backup according to the current date and time.
+
+tar -cvf ~/bash_course/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+
+
