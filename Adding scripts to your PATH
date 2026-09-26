@@ -1,0 +1,22 @@
+# Adding scripts to your PATH
+
+# To see your systems PATH:
+
+echo $PATH
+
+# For Rocky (Fedora based distoros):
+
+nano ~/.bash_profile
+
+# Append file with:
+
+export PATH="$PATH:$HOME/bash_course/scripts"
+
+# For Ubuntu:
+
+nano ~/.profile
+
+# Append file with:
+
+export PATH="$PATH:$HOME/bash_course/scripts"
+
